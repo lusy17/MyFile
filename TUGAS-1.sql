@@ -1,4 +1,5 @@
 -- Membuat Database TokoBuku
+CREATE DATABASE Toko_Buku
 
 -- Membuat tabel PENERBIT
 CREATE TABLE PENERBIT (
