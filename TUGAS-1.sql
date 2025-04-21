@@ -1,6 +1,9 @@
 -- Membuat Database TokoBuku
 CREATE DATABASE Toko_Buku
 
+-- Menggunakan Database Toko Buku 
+    USE Toko_Buku
+
 -- Membuat tabel PENERBIT
 CREATE TABLE PENERBIT (
     id_penerbit INT PRIMARY KEY,
