@@ -1,5 +1,5 @@
--- Nama : auliaansaa
--- NIM : 23241067
+-- Nama : Luisy
+-- NIM : 23241048
 -- Kelas : B
 -- Modul : 2 (SELECT)
 
