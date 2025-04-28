@@ -79,7 +79,7 @@ SELECT kode_produk, SUM(3) AS total_terjual FROM tr_penjualan GROUP BY kode_prod
 -- 7. Mengambil produk yang belum terjual
 SELECT nama_produk FROM ms_produk WHERE kode_produk NOT IN (SELECT kode_produk FROM tr_penjualan);
 
--- Mengambil data pelanggan yang tinggal di provinsi tertentu
+-- 8. Mengambil data pelanggan yang tinggal di provinsi tertentu
 SELECT nama_pelanggan, alamat FROM ms_pelanggan WHERE alamat LIKE '%Jawa Barat%';
 
 
